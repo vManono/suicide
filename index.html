@@ -6,13 +6,13 @@
 	<meta name="description" content="suicide.ooo" />
 	<meta property="og:title" content="suicide.ooo" />
 	<meta property="og:url" content="https://suicide.ooo/" />
-	<meta property="og:description" content="We like chocolate." />
+	<meta property="og:description" content="l'll be back in the morning." />
 
 	<meta charset="UTF-8">
 	<style type="text/css">
 		:root {
-			--backColor: #004261;
-			--pulseColor: #00FFFF;
+			--backColor: red;
+			--pulseColor: #4a0000;
 
 		}
 
@@ -100,7 +100,7 @@
 		.clickToPlay {
 			position: absolute;
 			margin-top: -100px;
-			color: #00FFFF;
+			color: red;
 			font-size: 33px;
 			transition: 2s;
 			opacity: 0;
@@ -641,8 +641,8 @@
 			$("#linksMegumin").css("bottom", "-52%");
 			//$("#linksTemplate2").css("bottom", "-52%");
 			isLinksOpen = false;
-			document.documentElement.style.setProperty('--pulseColor', "#00FFFF");
-			document.documentElement.style.setProperty('--backColor', "#004261");
+			document.documentElement.style.setProperty('--pulseColor', "red");
+			document.documentElement.style.setProperty('--backColor', "#4a0000");
 			$("#linksContainer").css({
 				"opacity": "0",
 				"margin-top": "30px",
@@ -677,8 +677,8 @@
 		});
 
 		$("#megumin").click(() => {
-			document.documentElement.style.setProperty('--pulseColor', "#ffc0cb");
-			document.documentElement.style.setProperty('--backColor', "#5e494c");
+			document.documentElement.style.setProperty('--pulseColor', "red");
+			document.documentElement.style.setProperty('--backColor', "#4a0000");
 			if (isLinksOpen) {
 				$("#linksManono").css("bottom", "-52%");
 				$("#linksMegumin").css("bottom", "-52%");
@@ -693,8 +693,8 @@
 		});
 
 		/*$("#template2").click(() => {
-			document.documentElement.style.setProperty('--pulseColor', "#a904d6");
-			document.documentElement.style.setProperty('--backColor', "#320040");
+			document.documentElement.style.setProperty('--pulseColor', "red");
+			document.documentElement.style.setProperty('--backColor', "#4a0000");
 			if (isLinksOpen) {
 				$("#linksManono").css("bottom", "-52%");
 				$("#linksMegumin").css("bottom", "-52%");
