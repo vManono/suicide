@@ -1,2 +1,2 @@
-# suicide
-Source for my website suicide.ooo
+# switchblades
+Source for my personal website switchblad.es
