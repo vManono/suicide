@@ -1,15 +1,14 @@
+
 <html>
-
 <head>
-	<title>⠀</title>
-	<meta name="theme-color" content="#8a0303">
-	<meta name="description" content="suicide.ooo" />
-	<meta property="og:title" content="suicide.ooo" />
-	<meta property="og:url" content="https://suicide.ooo/" />
-	<meta property="og:description" content="l'll be back in the morning." />
-
-	<meta charset="UTF-8">
-	<style type="text/css">
+<title>⠀</title>
+<meta name="theme-color" content="#8a0303">
+<meta name="description" content="switchblad.es" />
+<meta property="og:title" content="switchblad.es" />
+<meta property="og:url" content="https://switchblad.es/" />
+<meta property="og:description" content="l'll be back in the morning." />
+<meta charset="UTF-8">
+<style type="text/css">
 		:root {
 			--backColor: red;
 			--pulseColor: #4a0000;
@@ -239,7 +238,7 @@
 		#links {
 			position: absolute;
 			background: #0a0a0a;
-			width: 270px;
+			width: 150px;
 			/*400*/
 			height: 40px;
 			margin-top: -30px;
@@ -252,7 +251,7 @@
 		#linksContainer {
 			position: absolute;
 			margin-top: 30px;
-			width: 270px;
+			width: 150px;
 			/*400*/
 			height: 5px;
 			transition: 2s;
@@ -270,7 +269,7 @@
 
 		.linkBtnBox {
 			height: 100%;
-			width: 50%;
+			width: 100%;
 			/*33.33*/
 			float: left;
 			font-size: 32px;
@@ -296,80 +295,75 @@
 			transform: translate(-50%, 0%);
 		}
 	</style>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script src="three.r95.min.js"></script>
-	<script src="vanta.waves.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="three.r95.min.js"></script>
+<script src="vanta.waves.min.js"></script>
 </head>
-
 <body onload="clock();">
-	<embed src="サイレント.mp3" type="audio/mp3" autostart="true" hidden="true" style="display: none;">
-	<iframe src="サイレント.mp3" type="audio/mp3" allow="autoplay" style="display:none"></iframe>
-	<div id="clickToPlay"></div>
-	<div id="backgroundOverlay"></div>
-	<video id="vid" autoplay>
-		<source id="vidSrc" type="video/mp4">
-	</video>
-	<span id="clock"></span>
-	<span class="clickToPlay center">click to play</span>
-	<div class="center" id="logo">
-		<pre>███████╗██╗   ██╗██╗ ██████╗██╗██████╗ ███████╗</pre>
-		<pre>██╔════╝██║   ██║██║██╔════╝██║██╔══██╗██╔════╝</pre>
-		<pre>███████╗██║   ██║██║██║     ██║██║  ██║█████╗  </pre>
-		<pre>╚════██║██║   ██║██║██║     ██║██║  ██║██╔══╝  </pre>
-		<pre>███████║╚██████╔╝██║╚██████╗██║██████╔╝███████╗</pre>
-		<pre>╚══════╝ ╚═════╝ ╚═╝ ╚═════╝╚═╝╚═════╝ ╚══════╝</pre>
-	</div>
-	<div id="musClick" class="center">♪</div>
-	<div id="musControlsContainer" class="center">
-		<center><span id="closeMusControls">↓</span></center>
-		<div id="musControls">
-			<center>
-				<div id="nowPlaying"><span>Now playing: </span><br><span class="vidName"></span></div>
-				<div class="controls">
-					<span class="arrows" onclick="prevSong()" style="cursor: pointer; left: 10px;">🡄</span><input
-						type="range" min="0" max="100" value="50" class="slider" id="musSlider"
-						oninput="SetVolume(this.value); volPercentage();"><span class="arrows" onclick="nextSong();"
-						style="cursor: pointer; right: 10px;">🡆</span>
-				</div>
-			</center>
-		</div>
-	</div>
-	<div id="linkClick" class="center">⛓</div>
-	<div id="linksContainer" class="center">
-		<div id="links">
-			<div class="linkBtnBox">
-				<center><span class="linkBtnTxt" id="manono">manono</span></center>
-			</div>
-			<div class="linkBtnBox">
-				<center><span class="linkBtnTxt" id="megumin">megumin</span></center>
-			</div>
+<embed src="サイレント.mp3" type="audio/mp3" autostart="true" hidden="true" style="display: none;">
+<iframe src="サイレント.mp3" type="audio/mp3" allow="autoplay" style="display:none"></iframe>
+<div id="clickToPlay"></div>
+<div id="backgroundOverlay"></div>
+<video id="vid" autoplay>
+<source id="vidSrc" type="video/mp4">
+</video>
+<span id="clock"></span>
+<span class="clickToPlay center">click to play</span>
+<div class="center" id="logo">
+    <pre>    ███████╗██╗    ██╗██╗████████╗ ██████╗██╗  ██╗██████╗ ██╗      █████╗ ██████╗ ███████╗███████╗</pre>
+    <pre>    ██╔════╝██║    ██║██║╚══██╔══╝██╔════╝██║  ██║██╔══██╗██║     ██╔══██╗██╔══██╗██╔════╝██╔════╝</pre>
+    <pre>    ███████╗██║ █╗ ██║██║   ██║   ██║     ███████║██████╔╝██║     ███████║██║  ██║█████╗  ███████╗</pre>
+    <pre>    ╚════██║██║███╗██║██║   ██║   ██║     ██╔══██║██╔══██╗██║     ██╔══██║██║  ██║██╔══╝  ╚════██║</pre>
+    <pre>    ███████║╚███╔███╔╝██║   ██║   ╚██████╗██║  ██║██████╔╝███████╗██║  ██║██████╔╝███████╗███████║</pre>
+    <pre>    ╚══════╝ ╚══╝╚══╝ ╚═╝   ╚═╝    ╚═════╝╚═╝  ╚═╝╚═════╝ ╚══════╝╚═╝  ╚═╝╚═════╝ ╚══════╝╚══════╝</pre>
+</div>
+<div id="musClick" class="center">♪</div>
+<div id="musControlsContainer" class="center">
+<center><span id="closeMusControls">↓</span></center>
+<div id="musControls">
+<center>
+<div id="nowPlaying"><span>Now playing: </span><br><span class="vidName"></span></div>
+<div class="controls">
+<span class="arrows" onclick="prevSong()" style="cursor: pointer; left: 10px;">🡄</span><input type="range" min="0" max="100" value="50" class="slider" id="musSlider" oninput="SetVolume(this.value); volPercentage();"><span class="arrows" onclick="nextSong();" style="cursor: pointer; right: 10px;">🡆</span>
+</div>
+</center>
+</div>
+</div>
+<div id="linkClick" class="center">⛓</div>
+<div id="linksContainer" class="center">
+<div id="links">
+<div class="linkBtnBox">
+<center><span class="linkBtnTxt" id="manono">manono</span></center>
+</div>
+<!--div class="linkBtnBox">
+<center><span class="linkBtnTxt" id="megumin">megumin</span></center>
+</div-->
+</div>
+<center><span id="closeLinks">↑</span></center>
+</div>
+<div class="linksActual" id="linksManono">
+<center>
+<a href="https://steamcommunity.com/id/xxxtentacion" target="_blank"><span>steam</span></a><br>
+<a href="https://github.com/vmanono" target="_blank"><span>github</span></a><br>
+<a href="https://osu.ppy.sh/u/17585019" target="_blank"><span>osu!</span></a><br>
+<a href="https://discord.gg/reborn" target="_blank"><span>discord server</span></a>
+</center>
+</div>
 
-		</div>
-		<center><span id="closeLinks">↑</span></center>
-	</div>
-	<div class="linksActual" id="linksManono">
-		<center>
-			<a href="https://steamcommunity.com/id/xxxtentacion" target="_blank"><span>steam</span></a><br>
-			<a href="https://gamesense.pub/forums/profile.php?id=758" target="_blank"><span>gamesense</span></a><br>
-			<a href="https://github.com/vmanono" target="_blank"><span>github</span></a><br>
-			<a href="https://osu.ppy.sh/u/17585019" target="_blank"><span>osu!</span></a><br>
-			<a href="https://discord.gg/nt4nVH4" target="_blank"><span>discord server</span></a>
-		</center>
-	</div>
-	<div class="linksActual" id="linksMegumin">
-		<center>
-			<a href="https://www.instagram.com/veryfuckingholy_/" target="_blank"><span>instagram</span></a><br>
-			<a href="https://discord.gg/nt4nVH4" target="_blank"><span>discord server</span></a>
-		</center>
-	</div>
+<!--div class="linksActual" id="linksMegumin">
+<center>
+<a href="https://www.instagram.com/veryfuckingholy_/" target="_blank"><span>instagram</span></a><br>
+<a href="https://discord.gg/nt4nVH4" target="_blank"><span>discord server</span></a>
+</center>
+</div-->
 
-	<a class="hitCounter" data-name="9455f55d88e1f0a1fcbf431a10352e30|5|page|1|#ea5050|#ffffff|small|s-hit"></a>
-	<script>
+<!--a class="hitCounter" data-name="3aa833d5291101da3cf0b4c48dcbeb23|5|page|1|#ea5050|#ffffff|small|s-hit"></a>
+<script>
 		document.write("<script type='text/javascript' src='https://visitorshitcounter.com/js/hitCounter.js?v=" + Date.now() +
 			"'><\/script>");
 	</script>
-	<div class="hitCount"><span>Total Visitors: </span><span id="visited">0</span></div>
-	<script type="text/javascript">
+<div class="hitCount"><span>Total Visitors: </span><span id="visited">0</span></div-->
+<script type="text/javascript">
 		const bgOverlay = VANTA.WAVES({
 			el: "#backgroundOverlay",
 			mouseControls: false,
@@ -476,8 +470,8 @@
 			}
 
 			//shit lol
-			var title = ["⠀", "𝕤", "𝕤𝕦", "𝕤𝕦𝕚", "𝕤𝕦𝕚𝕔", "𝕤𝕦𝕚𝕔𝕚", "𝕤𝕦𝕚𝕔𝕚𝕕", "𝕤𝕦𝕚𝕔𝕚𝕕𝕖",
-				"𝕤𝕦𝕚𝕔𝕚𝕕𝕖.", "𝕤𝕦𝕚𝕔𝕚𝕕𝕖.𝕠", "𝕤𝕦𝕚𝕔𝕚𝕕𝕖.𝕠𝕠", "𝕤𝕦𝕚𝕔𝕚𝕕𝕖.𝕠𝕠𝕠"
+			var title = ["⠀", "𝕤", "𝕤𝕨", "𝕤𝕨𝕚", "𝕤𝕨𝕚𝕥", "𝕤𝕨𝕚𝕥𝕔", "𝕤𝕨𝕚𝕥𝕔𝕙", "𝕤𝕨𝕚𝕥𝕔𝕙𝕓",
+				"𝕤𝕨𝕚𝕥𝕔𝕙𝕓𝕝", "𝕤𝕨𝕚𝕥𝕔𝕙𝕓𝕝𝕒", "𝕨𝕚𝕥𝕔𝕙𝕓𝕝𝕒𝕕", "𝕤𝕨𝕚𝕥𝕔𝕙𝕓𝕝𝕒𝕕.", "𝕤𝕨𝕚𝕥𝕔𝕙𝕓𝕝𝕒𝕕.𝕖", "𝕤𝕨𝕚𝕥𝕔𝕙𝕓𝕝𝕒𝕕.𝕖𝕤"
 			];
 			var tI = 0;
 			let dir = 0;
@@ -638,7 +632,7 @@
 			clearTimeout(meguminTimeout);
 			//clearTimeout(template2Timeout);
 			$("#linksManono").css("bottom", "-52%");
-			$("#linksMegumin").css("bottom", "-52%");
+			//$("#linksMegumin").css("bottom", "-52%");
 			//$("#linksTemplate2").css("bottom", "-52%");
 			isLinksOpen = false;
 			document.documentElement.style.setProperty('--pulseColor', "red");
@@ -654,7 +648,7 @@
 					"margin-top": "80px"
 				});
 				$("#linksManono").css("bottom", "-52%");
-				$("#linksMegumin").css("bottom", "-52%");
+				//$("#linksMegumin").css("bottom", "-52%");
 				//$("#linksTemplate2").css("bottom", "-52%");
 			}, 1500);
 		});
@@ -676,7 +670,7 @@
 			}
 		});
 
-		$("#megumin").click(() => {
+		/*$("#megumin").click(() => {
 			document.documentElement.style.setProperty('--pulseColor', "red");
 			document.documentElement.style.setProperty('--backColor', "#4a0000");
 			if (isLinksOpen) {
@@ -690,7 +684,7 @@
 				isLinksOpen = true;
 				$("#linksMegumin").css("bottom", "-30%");
 			}
-		});
+		});*/
 
 		/*$("#template2").click(() => {
 			document.documentElement.style.setProperty('--pulseColor', "red");
@@ -709,5 +703,4 @@
 		});*/
 	</script>
 </body>
-
 </html>
