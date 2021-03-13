@@ -2,22 +2,12 @@
 <html>
 <head>
 <title>⠀</title>
-<meta name="theme-color" content="#8a0303">
-<meta name="description" content="switchblad.es" />
-<meta property="og:title" content="switchblad.es" />
-<meta property="og:url" content="https://switchblad.es/" />
-<meta property="og:description" content="l'll be back in the morning." />
 <meta charset="UTF-8">
 <style type="text/css">
 		:root {
-			--backColor: red;
-			--pulseColor: #4a0000;
+			--backColor: #85384b;
+			--pulseColor: #6b3442;
 
-		}
-
-		@font-face {
-			font-family: "Brandon Light";
-			src: url("font.woff2");
 		}
 
 		body {
@@ -38,7 +28,7 @@
 			-moz-user-select: none;
 			-ms-user-select: none;
 			user-select: none;
-			font-family: "Brandon Light";
+			font-family: "Courier New", cursive, sans-serif;
 		}
 
 		pre {
@@ -99,7 +89,7 @@
 		.clickToPlay {
 			position: absolute;
 			margin-top: -100px;
-			color: red;
+			color: #85384b;
 			font-size: 33px;
 			transition: 2s;
 			opacity: 0;
@@ -280,6 +270,7 @@
 			color: var(--backColor);
 			cursor: pointer;
 			transition: 2s;
+			position: relative; bottom: -5px;
 		}
 
 		.linksActual {
@@ -308,14 +299,11 @@
 <source id="vidSrc" type="video/mp4">
 </video>
 <span id="clock"></span>
-<span class="clickToPlay center">click to play</span>
+<span class="clickToPlay center">click to enter the basement</span>
 <div class="center" id="logo">
-    <pre>    ███████╗██╗    ██╗██╗████████╗ ██████╗██╗  ██╗██████╗ ██╗      █████╗ ██████╗ ███████╗███████╗</pre>
-    <pre>    ██╔════╝██║    ██║██║╚══██╔══╝██╔════╝██║  ██║██╔══██╗██║     ██╔══██╗██╔══██╗██╔════╝██╔════╝</pre>
-    <pre>    ███████╗██║ █╗ ██║██║   ██║   ██║     ███████║██████╔╝██║     ███████║██║  ██║█████╗  ███████╗</pre>
-    <pre>    ╚════██║██║███╗██║██║   ██║   ██║     ██╔══██║██╔══██╗██║     ██╔══██║██║  ██║██╔══╝  ╚════██║</pre>
-    <pre>    ███████║╚███╔███╔╝██║   ██║   ╚██████╗██║  ██║██████╔╝███████╗██║  ██║██████╔╝███████╗███████║</pre>
-    <pre>    ╚══════╝ ╚══╝╚══╝ ╚═╝   ╚═╝    ╚═════╝╚═╝  ╚═╝╚═════╝ ╚══════╝╚═╝  ╚═╝╚═════╝ ╚══════╝╚══════╝</pre>
+    <pre>   ┌┬┐      ┌─┐      ┌─┐      ┬─┐      ┬      ┬  ┬      ┌─┐      ┌┬┐</pre>
+    <pre>    ││      ├┤       ├─┘      ├┬┘      │      └┐┌┘      ├┤        ││</pre>
+    <pre>   ─┴┘      └─┘      ┴        ┴└─      ┴       └┘       └─┘      ─┴┘</pre>
 </div>
 <div id="musClick" class="center">♪</div>
 <div id="musControlsContainer" class="center">
@@ -344,9 +332,7 @@
 <div class="linksActual" id="linksManono">
 <center>
 <a href="https://steamcommunity.com/id/xxxtentacion" target="_blank"><span>steam</span></a><br>
-<a href="https://github.com/vmanono" target="_blank"><span>github</span></a><br>
-<a href="https://osu.ppy.sh/u/17585019" target="_blank"><span>osu!</span></a><br>
-<a href="https://discord.gg/reborn" target="_blank"><span>discord server</span></a>
+<a href="https://github.com/vmanono" target="_blank"><span>github</span></a>
 </center>
 </div>
 
@@ -370,8 +356,8 @@
 			touchControls: false,
 			scale: 1.00,
 			scaleMobile: 1.00,
-			color: 0xc0c0c,
-			shininess: 6.00,
+			color: "#050505",
+			shininess: 1.00,
 			waveSpeed: 0.40,
 			zoom: 1
 		})
@@ -470,8 +456,8 @@
 			}
 
 			//shit lol
-			var title = ["⠀", "𝕤", "𝕤𝕨", "𝕤𝕨𝕚", "𝕤𝕨𝕚𝕥", "𝕤𝕨𝕚𝕥𝕔", "𝕤𝕨𝕚𝕥𝕔𝕙", "𝕤𝕨𝕚𝕥𝕔𝕙𝕓",
-				"𝕤𝕨𝕚𝕥𝕔𝕙𝕓𝕝", "𝕤𝕨𝕚𝕥𝕔𝕙𝕓𝕝𝕒", "𝕨𝕚𝕥𝕔𝕙𝕓𝕝𝕒𝕕", "𝕤𝕨𝕚𝕥𝕔𝕙𝕓𝕝𝕒𝕕.", "𝕤𝕨𝕚𝕥𝕔𝕙𝕓𝕝𝕒𝕕.𝕖", "𝕤𝕨𝕚𝕥𝕔𝕙𝕓𝕝𝕒𝕕.𝕖𝕤"
+			var title = ["⠀", "𝕕", "𝕕𝕖", "𝕕𝕖𝕡", "𝕕𝕖𝕡𝕣", "𝕕𝕖𝕡𝕣𝕚", "𝕕𝕖𝕡𝕣𝕚𝕧", "𝕕𝕖𝕡𝕣𝕚𝕧𝕖",
+				"𝕕𝕖𝕡𝕣𝕚𝕧𝕖𝕕", "𝕕𝕖𝕡𝕣𝕚𝕧𝕖𝕕.", "𝕕𝕖𝕡𝕣𝕚𝕧𝕖𝕕.𝕝", "𝕕𝕖𝕡𝕣𝕚𝕧𝕖𝕕.𝕝𝕚.", "𝕕𝕖𝕡𝕣𝕚𝕧𝕖𝕕.𝕝𝕚𝕗", "𝕕𝕖𝕡𝕣𝕚𝕧𝕖𝕕.𝕝𝕚𝕗𝕖"
 			];
 			var tI = 0;
 			let dir = 0;
@@ -516,11 +502,7 @@
 		var vidNames = [
 			"Lil Peep - lil jeep",
 			"Lil Peep & Lil Tracy – ​cobain",
-			"Lil Peep x Lil Tracy - favorite dress",
-			"ZillaKami - Frailty",
-			"ZillaKami - Outer Space",
-			"ZillaKami - RocketMan",
-			"ZillaKami x SosMula - Screaming at the Rain"
+			"Lil Peep x Lil Tracy - favorite dress"
 		]
 
 		document.getElementById("vid").volume = 0.5;
@@ -635,8 +617,8 @@
 			//$("#linksMegumin").css("bottom", "-52%");
 			//$("#linksTemplate2").css("bottom", "-52%");
 			isLinksOpen = false;
-			document.documentElement.style.setProperty('--pulseColor', "red");
-			document.documentElement.style.setProperty('--backColor', "#4a0000");
+			document.documentElement.style.setProperty('--pulseColor', "#85384b");
+			document.documentElement.style.setProperty('--backColor', "#6b3442");
 			$("#linksContainer").css({
 				"opacity": "0",
 				"margin-top": "30px",
@@ -655,8 +637,8 @@
 
 		var isLinksOpen = false;
 		$("#manono").click(() => {
-			document.documentElement.style.setProperty('--pulseColor', "red");
-			document.documentElement.style.setProperty('--backColor', "#4a0000");
+			document.documentElement.style.setProperty('--pulseColor', "#85384b");
+			document.documentElement.style.setProperty('--backColor', "#6b3442");
 			if (isLinksOpen) {
 				$("#linksManono").css("bottom", "-52%");
 				$("#linksMegumin").css("bottom", "-52%");
